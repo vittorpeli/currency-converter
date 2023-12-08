@@ -61,3 +61,16 @@ button {
 button:hover {
   background-color: #006172;
 }
+
+#finalAmount {
+  display: none;
+  margin: 50px auto;
+}
+
+#finalAmount h2 {
+  font-size: 50px;
+}
+
+.finalValue {
+  color: #1fc96f;
+}
