@@ -15,7 +15,7 @@
       <label for="amount">Valor:</label>
       <input type="text" class="searchBox" placeholder="0" id="amount">
       <label for="from">De:</label>
-      <select id="sel1" class="from">
+      <select id="from">
         <option value="">Escolha Uma…</option>
         <option value="USD">USD</option>
         <option value="AED">AED</option>
@@ -52,7 +52,7 @@
         <option value="RUB">RUB</option>
       </select>
       <label for="to">Para</label>
-      <select id="sel2" class="to">
+      <select id="to" class="to">
         <option value="">Escolha Uma…</option>
         <option value="USD">USD</option>
         <option value="AED">AED</option>
@@ -89,12 +89,12 @@
         <option value="RUB">RUB</option>
       </select>
 
-    <button type="submit"  class="convertBtn" onclick="converter()">Converter</button>
+    <button type="submit"  class="convertBtn">Converter</button>
 
     
     </div>
     <div id="finalAmount">
-      <h2>Converted Amount:
+      <h2>Valor Convertido:
         <span class="finalValue"></span>
       </h2>
     </div>

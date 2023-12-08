@@ -64,11 +64,11 @@ button:hover {
 
 #finalAmount {
   display: none;
-  margin: 50px auto;
+  margin: 20px;
 }
 
 #finalAmount h2 {
-  font-size: 50px;
+  font-size: 28px;
 }
 
 .finalValue {
